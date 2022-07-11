@@ -23,6 +23,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5'
+
 	//NotEmpty 클래스를 위해 내가 추가함. (스프링 부트 버전 2.3이상부터는 명시해아함, 강의자료에서는 미만버전)
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 
