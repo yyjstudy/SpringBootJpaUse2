@@ -3,6 +3,7 @@ package jpabook.jpashop.domain.Item;
 import jpabook.jpashop.domain.exception.NotEnoughStockExecption;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.BatchSize;
 
 import javax.persistence.*;
 import java.util.ArrayList;
